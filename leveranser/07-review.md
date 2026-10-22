@@ -1,5 +1,7 @@
 # Uavhengig review – CEO-brief, styrepresentasjon og AI-arbeidslogg
 
+*Kortversjon: [`07-review-tldr.md`](07-review-tldr.md).*
+
 *Gjennomført 2026-10-22 etter [`REVIEW_OPPDRAG.md`](REVIEW_OPPDRAG.md), av en separat AI-agent uten kontekst fra utformingen. Reviewet: `05-ceo-brief.pdf`, `06-styrepresentasjon.pdf` (med HTML-kilde) og `05-ai-arbeidslogg.pdf`/`.md`, etterprøvd mot `oppgave/CaseCorpus/`. Revieweren gir kritikk, ikke fasit. Gruppen må selv vurdere hvert punkt.*
 
 > **Stikkprøvekontroll (Person B, mot originalkilder):** Disse funnene er bekreftet ordrett:
