@@ -1,0 +1,14 @@
+{
+  "v": 4,
+  "createdOnFiles": { "v": 1, "at": "2026-10-22T12:00:00Z" },
+  "lists": "css",
+  "title": "OneFlow – styrepresentasjon",
+  "order": ["situasjon", "anbefaling", "begrunnelse", "tiltak", "plan90", "effekt"],
+  "sections": {
+    "s1": { "description": "Situasjonen, problemet og hva som skjer hvis vi ikke handler.", "start": "situasjon" },
+    "s2": { "description": "Anbefalingen, beslutningene og begrunnelsen fra analysen.", "start": "anbefaling" },
+    "s3": { "description": "Tiltak, 90-dagersplan og hvordan vi måler effekt.", "start": "tiltak" }
+  },
+  "faces": {},
+  "designSystems": []
+}
