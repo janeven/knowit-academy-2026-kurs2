@@ -14,15 +14,7 @@ Du kan bytte, men sørg for at alle seks er dekket og at ingen har dem alle.
 
 ## Slik starter du
 
-Så lenge disse filene ikke er slått sammen med `main`, ligger de på grenen `situasjonsbilde-hypoteser`. Klone eller åpne repoet, og kjør:
-
-```bash
-git fetch origin
-git checkout situasjonsbilde-hypoteser
-git checkout -b <ditt-navn>-hypoteser
-```
-
-(Er grenen slått sammen med `main`, bruk `main` i stedet for `situasjonsbilde-hypoteser`.) Åpne deretter repoet i Claude Code og lim inn teksten under, med riktig hypotesenummer. Hvis Windows klager på for lange filstier ved kloning, bruk `git clone -c core.longpaths=true <url>`.
+Vi jobber kun på `main`, uten egne grener. Klone repoet (eller `git pull origin main` hvis du allerede har det), åpne det i Claude Code og lim inn teksten under, med riktig hypotesenummer. Hvis Windows klager på for lange filstier ved kloning, bruk `git clone -c core.longpaths=true <url>`.
 
 ---
 
@@ -63,7 +55,7 @@ Jeg er med i et Knowit-team på tre som gir råd til Nordflows CEO om OneFlow-pr
 **Til slutt:**
 - Fyll ut «AI-bruk» nederst i hver funnfil: hva du delegerte til AI, hva du brukte uendret, hva du endret eller forkastet, og hva du selv kontrollerte mot originalkilden. Dette er en del av leveransen («AI-arbeidslogg»).
 - Gi en kort oppsummering i chatten: dom per hypotese, de tre viktigste bevisene, og hva du er mest usikker på.
-- Commit kun dine filer og push grenen din. Gjør `git pull --rebase origin situasjonsbilde-hypoteser` først (eller `main` hvis den er slått sammen), og rediger bare *din rad* i oversikten for å unngå konflikt. Push din egen gren (`git push -u origin <ditt-navn>-hypoteser`), ikke fellesgrenen.
+- Commit kun dine egne filer og push til `main`. Kjør `git pull --rebase origin main` rett før du pusher, og rediger bare *din rad* i oversikten og dine egne funnfiler, så unngår vi konflikter. Commit og push gjerne ofte (f.eks. etter hver hypotese).
 
 ### SLUTT PÅ PROMPT
 
